@@ -1,7 +1,8 @@
 
-1. API endpoint to store employee details(Validate the data and throw the errors on invalid data) 
-        Create Employee: http://localhost:8080/employees/save
+1. API endpoint to store employee details(Validate the data and throw the errors on invalid data).    
+        Create Employee: http://localhost:8080/employees/save  
         Create Employees: http://localhost:8080/employees/saveall  
+        
 2. API endpoint to return employees' tax deduction for the current financial year(April to March). API should return employee code, first name, last name, yearly salary, tax amount, cess amount.  
        For Single Employee: http://localhost:8080/employees/{employeeId}/tax-deduction  
        For All Employees: http://localhost:8080/employees/tax-deductions 
